@@ -1,0 +1,59 @@
+{
+    "plugins":[
+      "splitter",
+      "expandable-chapters",
+      "code",
+      "github",
+      "edit-link",
+      "sharing",
+      "tbfed-pagefooter",
+      "prism", 
+      "-highlight",
+      "-lunr",
+      "back-to-top-button"
+    ],
+    "pluginsConfig": {
+      "prism": {
+        "css": [
+            "prismjs/themes/prism-okaidia.css"
+        ],
+        "lang": {
+            "flow": "typescript"
+        }
+    },
+        "github": {
+            "url": "https://github.com/litiegen"
+        },
+        "edit-link": {
+            "base": "https://github.com/litiegen/DDH-wxCloud-File/",
+            "label": "编辑本页"
+          },
+          "sharing": {
+            "douban": true,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+              "weibo", "douban", "qzone", "qq"
+            ]
+          },
+          "tbfed-pagefooter": {
+            "copyright":"Copyright &copy litiegen 2020",
+            "modify_label": "本文档发布时间：",
+            "modify_format": "2020-04-18"
+        }
+    }
+}
