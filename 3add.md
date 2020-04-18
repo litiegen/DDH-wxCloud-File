@@ -65,9 +65,15 @@ ziDuan:function(e){
     //END
 },
 ```
+
 原始数据：
+
 ![Image text](./img/add2.png)
+
 添加字段后：
+
 ![Image text](./img/add3.png)
+
 多次添加字段后：
+
 ![Image text](./img/add4.png)
