@@ -1,0 +1,22 @@
+{
+  "name": "ddh-wxcloud-file",
+  "version": "1.0.0",
+  "description": "🖥Wechat cloud development document\r 点点画云函数使用文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litiegen/DDH-wxCloud-File.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/litiegen/DDH-wxCloud-File/issues"
+  },
+  "homepage": "https://github.com/litiegen/DDH-wxCloud-File#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
