@@ -30,11 +30,12 @@ console.log("[提交画的数据]",e)
 wx.cloud.callFunction({
   name: 'upload',//云函数接口名称upload
   data: {//向接口传递的参数
+          db:'DIY',//添加的数据库名称 DIY或drawing
     drawname:this.data.drawname,
          row:this.data.row,
-         col:pthis.data.col,
+         col:this.data.col,
         data:this.data.data,
-     history:pthis.data.history,
+     history:this.data.history,
  historyPath:this.data.historyPath,
 },
 success: res => {
